@@ -18,7 +18,7 @@ In this practical module, we implement a Retrieval-Augmented Generation (RAG) sy
   - A language model from OpenAI that generates human-like text based on the input it receives.
 
 - **Knowledge DB:**
-  - **Custom Search Engine**: A tailored search engine designed to index and retrieve relevant information based on specific queries.
+  - **Custom Search Engine**: A tailored search engine designed to index and retrieve relevant information based on specific queries. Using TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity for text fields and exact matching for keyword fields.
   - **ElasticSearch**: An open-source search engine for textual data, providing efficient and scalable search capabilities.
 
 By integrating Chat-GPT3.5-Turbo with a custom search engine and ElasticSearch, we create a system that leverages text generation and retrieval methods to provide precise and contextually informed responses.
