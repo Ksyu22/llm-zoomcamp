@@ -6,7 +6,7 @@ This repository contains my work from a 10-week bootcamp on Large Language Model
 
 - **Introduction to LLMs and RAG** 🧠
   - Understanding the basics and significance of LLMs and RAG in AI applications.
-  
+
 - **Open-Source and Self-Hosting LLMs** 🌐
   - Exploring open-source LLMs and methods to self-host these models.
 
