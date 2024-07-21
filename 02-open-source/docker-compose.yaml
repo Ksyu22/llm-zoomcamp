@@ -7,6 +7,8 @@ services:
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g  # Set heap size to 2 GB
+
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -14,8 +16,8 @@ services:
   ollama:
     image: ollama/ollama
     container_name: ollama
-    mem_limit: 4g
-    cpus: '2.0'
+    mem_limit: 2g
+    cpus: '1.0'
     volumes:
       - ollama:/root/.ollama
     ports:
