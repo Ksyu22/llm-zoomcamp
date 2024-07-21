@@ -1,13 +1,11 @@
 # Module & Notebooks Overview
 
-## Running Ollama Locally
-`ollama_locally.ipynb`
+## [Running Ollama Locally](https://github.com/Ksyu22/llm-zoomcamp/blob/main/02-open-source/ollama_locally.ipynb)
 
 In this notebook, I interacted with the Ollama server launched locally on my CPU and within Docker. Due to RAM limitations, I used the `gemma:2b` model.
 There are multiple ways to call Ollama, including LlamaIndex, Langchain, and the native Python library, among others.
 
-## RAG with Ollama & Elasticsearch
-`ollama_elastic_docker_compose.ipynb`
+## [RAG with Ollama & Elasticsearch](https://github.com/Ksyu22/llm-zoomcamp/blob/main/02-open-source/ollama_elastic_docker_compose.ipynb)
 
 Both services were run using Docker Compose. The main challenges included fitting everything within a limited amount of RAM and managing CPU resources effectively.
 
@@ -18,7 +16,7 @@ To address these issues, I adjusted the following aspects of the application:
 Although these techniques allowed me to obtain results, the output quality was poor. Specifically, the output did not align with the ground truth available in the documents, and the text did not sound like it was written by a native English speaker.
 
 
-## Exploring Model Weights Management in Docker
+## [Exploring Model Weights Management in Docker](https://github.com/Ksyu22/llm-zoomcamp/blob/main/02-open-source/ollama_h.ipynb)
 
 In the notebook `ollama_h.ipynb`, I explored model weights management within Docker.
 
