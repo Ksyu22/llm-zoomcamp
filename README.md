@@ -4,10 +4,10 @@ This repository contains my work from a 10-week bootcamp on Large Language Model
 
 ## Course Outline 📅
 
-- **Introduction to LLMs and RAG** 🧠
+- **[Introduction to LLMs and RAG](https://github.com/Ksyu22/llm-zoomcamp/tree/main/01-intro)** 🧠
   - Understanding the basics and significance of LLMs and RAG in AI applications.
 
-- **Open-Source and Self-Hosting LLMs** 🌐
+- **[Open-Source and Self-Hosting LLMs]**(https://github.com/Ksyu22/llm-zoomcamp/tree/main/02-open-source) 🌐
   - Exploring open-source LLMs and methods to self-host these models.
 
 - **Vector Databases** 🗃️
