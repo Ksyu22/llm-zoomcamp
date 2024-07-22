@@ -25,16 +25,10 @@
 
 ### Practice
 
-1. **Vector Search**:
-   - _To be filled with practical exercises and code samples._
-
-2. **Creating and Indexing Embeddings**:
-   - _To be filled with practical exercises and code samples._
-
-3. **Vector Search with Elasticsearch**:
+1. [**Vector Search with Elasticsearch**](https://github.com/Ksyu22/llm-zoomcamp/blob/main/03-vector-search/elastic_search.ipynb):
    - Introduction to Elasticsearch and its capabilities for handling vector search.
    - Configuring Elasticsearch for embedding-based search.
    - Querying and retrieving documents using vector search in Elasticsearch.
 
-4. **Offline Evaluation of Retrieval**:
+2. **Offline Evaluation of Retrieval**:
    - _To be filled with practical exercises and code samples._
