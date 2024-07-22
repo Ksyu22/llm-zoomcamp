@@ -4,18 +4,19 @@
 
 1. **Embeddings**:
     - Vector representation of text (other types of data). It's a way to translate textual representation into numerical one and allows to use this data with ML/DL algorithms.
+    - Can be created with different embeddings model(word, sentence, document,...)
 
 2. **Vector DataBase**:
     - Indexes and stores embeddings in a very optimal way which permits a very effective search
-    - Allows perform similarity search btwn elements
+    - Allows to perform similarity search btwn elements
     - Can support LLMs with additional and easily available knowledge that LLMs might lack
 
-  2.1. **Vector DataBase Search**:
+  ***Indexing Embeddings***:
+      Index our documents or some fields with embeddings and after perform query with vector representation for search.
 
-  2.2. **Creating and Indexing Embeddings**:
-    - Explanation of embeddings and their role in representing text as vectors.
-    - Methods for generating embeddings using various techniques (e.g., Word2Vec, BERT, etc.).
-    - Process of indexing embeddings to enable efficient search and retrieval.
+  ***Vector DataBase Search***:
+      Vector embedding search permits to improve search relevance because it captures semantic meaning, which is not available with usual keyword search.
+
 
 3. **Offline Evaluation of Retrieval**:
     - Methods for evaluating the effectiveness of retrieval systems.
@@ -37,15 +38,3 @@
 
 4. **Offline Evaluation of Retrieval**:
    - _To be filled with practical exercises and code samples._
-
-
-
-Vector DataBase :
-
-indexes and stores vector embedding for optimal storage and search
-
-Provides the ability to compare multiple things (semantically)
-
-Can serve LLMs to become smarter and better recall pas data.
-
-Performed Semantic search
