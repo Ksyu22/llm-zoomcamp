@@ -31,4 +31,5 @@
    - Querying and retrieving documents using vector search in Elasticsearch.
 
 2. **Offline Evaluation of Retrieval**:
-   - _To be filled with practical exercises and code samples._
+   - Generation of the ground truth dataset on the basis of the actual records from our knowledge database. For every record(user question in FAQ) we are prompting gpt-4o-mini to generate similar/relevant records(questions).
+   During this process we had to deal with different possible unique indexes generation approaches (if record indexes were not initially retrieved) in order to be able to build a lookup table for our evaluation task.
