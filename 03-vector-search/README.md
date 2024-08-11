@@ -58,5 +58,19 @@ Is a metric that measures the average of the reciprocal ranks of the first relev
 ###### 2.2.2 Evaluation of search methods
 
 For both we were using ElasticSearch
-- [Text search](https://github.com/Ksyu22/llm-zoomcamp/blob/main/03-vector-search/02_evaluation_text_retrieval.ipynb)
-- [Vector search](https://github.com/Ksyu22/llm-zoomcamp/blob/main/03-vector-search/03_evaluation_vector_retrieval.ipynb)
+1. [Text search](https://github.com/Ksyu22/llm-zoomcamp/blob/main/03-vector-search/02_evaluation_text_retrieval.ipynb)
+2. [Vector search](https://github.com/Ksyu22/llm-zoomcamp/blob/main/03-vector-search/03_evaluation_vector_retrieval.ipynb)
+  - query vector field
+  - text vector field
+  - query+text vector field
+  - combining the search on 3 vectors
+
+**Results**
+
+| Search            | Hit rate    | MRR      | it/s
+|-------------------|------------------------|--------|
+| Text              | 0.75        | 0.61     | 272.85 |
+| V query           | 0.77        | 0.66     | 47.81  |
+| V text            | 0.82        | 0.70     | 56.59  |
+| V query+text      | 0.91        | 0.82     | 52.04  |
+| V 3 vectors       | 0.90        | 0.80     | 42.53  |
