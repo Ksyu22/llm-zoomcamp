@@ -48,35 +48,15 @@
 
 ###### 2.2.1.1 Hit Rate:
 
-Is a metric that measures the fraction of queries for which the correct item (or relevant item) is retrieved within the top *k* results. It answers the question: "How often does the system return a relevant result within the top *k* positions?".
+Is a metric that measures the fraction of queries for which the correct/relevant item is retrieved within the top *k* results. It answers the question: "How often does the system return a relevant result within the top *k* positions?".
 Higher Hit Rate values indicate better performance.
-
-**Formula**
-Given a set of queries \( Q = \{q_1, q_2, \ldots, q_n\} \):
-
-\[
-\text{Hit Rate@k} = \frac{1}{|Q|} \sum_{i=1}^{|Q|} \mathbf{1}\{ \text{rank of relevant item in } q_i \leq k \}
-\]
-
-Where:
-- \( |Q| \) is the total number of queries.
-- \( \mathbf{1}\{\text{condition}\} \) is an indicator function that is 1 if the condition is true and 0 otherwise.
-- "rank of relevant item in \( q_i \)" refers to the position of the first relevant item in the retrieved list for query \( q_i \).
-
 
 ###### 2.2.1.2 Mean Reciprocal Rank (MRR)
 
 Is a metric that measures the average of the reciprocal ranks of the first relevant item for a set of queries. It focuses on the rank position of the first relevant result. MRR values range from 0 to 1, with 1 being the best possible score.
 
-**Formula**:
-Given a set of queries \( Q = \{q_1, q_2, \ldots, q_n\} \):
-
-\[
-\text{MRR} = \frac{1}{|Q|} \sum_{i=1}^{|Q|} \frac{1}{\text{rank of first relevant item in } q_i}
-\]
-
-Where:
-- \( |Q| \) is the total number of queries.
-- "rank of first relevant item in \( q_i \)" refers to the position of the first relevant item in the retrieved list for query \( q_i \).
-
 ###### 2.2.2 Evaluation of search methods
+
+For both we were using ElasticSearch
+- [Text search](https://github.com/Ksyu22/llm-zoomcamp/blob/main/03-vector-search/02_evaluation_text_retrieval.ipynb)
+- [Vector search](https://github.com/Ksyu22/llm-zoomcamp/blob/main/03-vector-search/03_evaluation_vector_retrieval.ipynb)
